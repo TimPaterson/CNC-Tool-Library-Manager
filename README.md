@@ -21,9 +21,9 @@ Excel:
 
 ![Main Screen](https://raw.githubusercontent.com/TimPaterson/CNC-Tool-Library-Manager/master/ReadmeImages/MainScreen.png)
 
-Excel applies two layers of security to prevent malicious macros in a
-downloaded file from running. First you need to click "Enable Editing",
-then "Enable Content" as shown in the screen shot.
+Excel applies multiple layers of security to prevent malicious macros in a
+downloaded file from running. As the specifics change from version to
+version, consult Microsoft Office documentation to fully enable macros.
 
 Tool Library Manager comes with four sets of rules:
 
@@ -74,10 +74,10 @@ these basic requirements:
 + The file has a row of column names (not necessarily the first row).
 + The rows after the column name row are the tool values.
 
-One limitation is that Excel cannot export to TSV format. Fusion 360,
-for example, uses TSV format so it is a one-way translation. This
-works fine if Fusion 360 is the master tool list and never needs
-updating from another source.
+One limitation is that Excel cannot export to TSV format. In that
+case, the TSV source could be used as the master tool list that is not
+updated from another source. (Fusion 360 has transitioned to CSV,
+but this limitation would apply if you were using their old TSV format.)
 
 Here is a look at the rule table:
 
