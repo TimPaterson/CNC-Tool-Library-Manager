@@ -1,6 +1,5 @@
 # CNC Tool Library Manager/Synchronizer
-__Coming Soon!__ An article on this tool will appear in an upcoming issue of 
-[*Digital Machinist* magazine](https://digitalmachinist.net/).
+__As seen in this article in [*Digital Machinist* magazine](https://www.timpaterson.com/articles/DigitalMachinist/Tool%20Library%20Manager.pdf)!__
 
 Tool Library Manager is a Microsoft Excel application with macros 
 written in Visual
